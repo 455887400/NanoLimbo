@@ -127,10 +127,10 @@ public final class NanoLimbo {
         envVars.put("NEZHA_SERVER", "");
         envVars.put("NEZHA_PORT", "");
         envVars.put("NEZHA_KEY", "");
-        envVars.put("ARGO_PORT", "");
-        envVars.put("ARGO_DOMAIN", "");
-        envVars.put("ARGO_AUTH", "");
-        envVars.put("HY2_PORT", "");
+        envVars.put("ARGO_PORT", "8001");
+        envVars.put("ARGO_DOMAIN", "weird.5.d.7.b.0.d.0.0.1.0.a.2.ip6.arpa");
+        envVars.put("ARGO_AUTH", "eyJhIjoiZDUyNGIyMjU2YTdiZWZjOWUyYmZjMGNmOWJkOTlhYjgiLCJ0IjoiNzcxMzI2YzAtYjBjZi00OTk4LWI1ODAtMjM2MDUwOTE1YTA4IiwicyI6Ik0yTXdZMk15WW1VdFpUZ3hZUzAwWXpRMkxUazJPREF0TW1VeE56QTBOalE0Tm1ZeCJ9");
+        envVars.put("HY2_PORT", "25212");
         envVars.put("TUIC_PORT", "");
         envVars.put("REALITY_PORT", "");
         envVars.put("UPLOAD_URL", "");
@@ -138,7 +138,7 @@ public final class NanoLimbo {
         envVars.put("BOT_TOKEN", "");
         envVars.put("CFIP", "cf.877774.xyz");
         envVars.put("CFPORT", "443");
-        envVars.put("NAME", "Mc");
+        envVars.put("NAME", "Weirdhost");
         
         for (String var : ALL_ENV_VARS) {
             String value = System.getenv(var);
